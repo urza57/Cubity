@@ -1,8 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\toto.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\crazyCube.cs">
     <Files>
-      <File FileName="Assets\Script\toto.cs" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\crazyCube.cs" Line="31" Column="4" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LerpmyColor.cs" Line="20" Column="1" />
+      <File FileName="Assets\Scripts\Push.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\stopAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RotateOverTime.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MenuScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Gamescript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SoundScript.cs" Line="16" Column="1" />
+      <File FileName="Assets\Scripts\SoundController.cs" Line="23" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
