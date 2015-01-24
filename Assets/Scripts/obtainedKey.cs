@@ -25,6 +25,7 @@ public class obtainedKey : MonoBehaviour {
 			distanceX = xC - xP;
 		if(distanceX <= distanceMin){
 			interrupteur.renderer.material.color = Color.green;
+			interrupteur.light.color = Color.green;
 			Destroy(gameObject);
 		}
 	}
