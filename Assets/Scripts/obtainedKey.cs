@@ -6,7 +6,7 @@ public class obtainedKey : MonoBehaviour {
 	public GameObject interrupteur;
 	public GameObject player;
 	public float distanceX;
-	public float distanceMin = 0.7f;
+	public float distanceMin = 2f;
 
 	// Use this for initialization
 	void Start () {
@@ -16,15 +16,11 @@ public class obtainedKey : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float xP = player.transform.position.x;
-		float xC = gameObject.transform.position.x;
+		float distance = Vector3.Distance(player.transform.position, gameObject.transform.position);
 
-		if(xP >= xC)
-			distanceX = xP - xC;
-		else
-			distanceX = xC - xP;
-		if(distanceX <= distanceMin){
+		if(distance <= distanceMin){
 			interrupteur.renderer.material.color = Color.green;
+			interrupteur.light.color = Color.green;
 			Destroy(gameObject);
 		}
 	}
