@@ -10,7 +10,6 @@ public class MenuScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
 	}
 
 	public void ExitTheGame()
@@ -21,5 +20,10 @@ public class MenuScript : MonoBehaviour {
 	public void StartTheGame()
 	{
 		Application.LoadLevel("finalLevel");
+	}
+
+	public void ReturnToMenu()
+	{
+		Application.LoadLevel("menu");
 	}
 }
