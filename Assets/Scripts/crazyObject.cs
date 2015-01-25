@@ -20,11 +20,11 @@ public class crazyObject : MonoBehaviour {
 		transform.Rotate(Vector3.up, Time.deltaTime * 300, Space.World);
 		if (!hasmove)
 		{
-			if (Vector3.Distance(transform.position, player.transform.position) <= 9.0f)
+			if (Vector3.Distance(transform.position, player.transform.position) <= 4.5f)
 			{
 
 				player.transform.parent = couloir.transform;
-				couloir.transform.position = new Vector3(137.32f, 6.5f, -47.9f);
+				couloir.transform.position = new Vector3(-82.17f, 3.12f, -45.28f);
 				//room_1.transform.position = pos4;
 				//room_4.transform.position = pos1;
 				player.transform.parent = null;

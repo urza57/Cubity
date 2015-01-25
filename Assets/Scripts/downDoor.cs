@@ -14,9 +14,9 @@ public class downDoor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if((interrupteur1.light.color == Color.green )
-   		   	&& (interrupteur2.light.color == Color.green)
-		   	&& (interrupteur3.light.color == Color.green)) {
+		if((interrupteur1.renderer.material.color == Color.green )
+		   && (interrupteur2.renderer.material.color == Color.green)
+		   && (interrupteur3.renderer.material.color == Color.green)) {
 			if(gameObject.transform.position.y >= -10.0f){
 				transform.Translate(new Vector3 (0, -1, 0) * Time.deltaTime);
 			}
