@@ -4,3 +4,5 @@ Assembly-UnityScript-Editor-vs.unityproj
 *.unityproj
 *.sln
 Temp/
+*.sln
+*.csproj

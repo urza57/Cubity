@@ -6,10 +6,11 @@ public class crazyCube : MonoBehaviour {
 	public float basicScale = 2.0f;
 	public float maxScale = 5.0f;
 	public bool isplus = false;
-	
+	public GameObject player;
+
 	// Use this for initialization
 	void Start () {
-	
+		player = GameObject.Find("First Person Controller");
 	}
 	
 	// Update is called once per frame
@@ -17,7 +18,8 @@ public class crazyCube : MonoBehaviour {
 		transform.Rotate(Vector3.right, Time.deltaTime * 300);
 		transform.Rotate(Vector3.up, Time.deltaTime * 300, Space.World);
 		float retval = 0.5f * Time.deltaTime;
-		if (Input.GetKeyDown(KeyCode.R))
+		int nb = PlayerPrefs.GetInt("NbKey");
+		if (nb == 3 && ((Vector3.Distance(player.transform.position, gameObject.transform.position)) <= 30f))
 		{
 			isplus = true;
 		}
