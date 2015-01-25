@@ -31,6 +31,6 @@ public class loadLevelAfterImage : MonoBehaviour {
 	public void StartTheGame()
 	{
 
-		Application.LoadLevel("test");
+		Application.LoadLevel("finalLevel");
 	}
 }

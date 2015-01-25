@@ -19,7 +19,7 @@ public class MenuScript : MonoBehaviour {
 
 	public void StartTheGame()
 	{
-		Application.LoadLevel("finalLevel");
+		Application.LoadLevel("imageDebut");
 	}
 
 	public void ReturnToMenu()
