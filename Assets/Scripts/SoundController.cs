@@ -58,6 +58,6 @@ public class SoundController : MonoBehaviour {
 
 	void OnDrawGizmosSelected() {
 		Gizmos.color = Color.yellow;
-		Gizmos.DrawWireCube(transform.position, new Vector3(10, 10, 10));
+		Gizmos.DrawWireCube(transform.position, new Vector3(20, 20, 20));
 	}
 }

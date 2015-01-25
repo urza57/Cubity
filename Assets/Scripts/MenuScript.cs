@@ -20,6 +20,6 @@ public class MenuScript : MonoBehaviour {
 
 	public void StartTheGame()
 	{
-		Application.LoadLevel("test");
+		Application.LoadLevel("finalLevel");
 	}
 }

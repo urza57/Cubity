@@ -4,7 +4,7 @@ using System.Collections;
 public class obtainedKey : MonoBehaviour {
 
 	public GameObject interrupteur;
-	public GameObject player;
+	private GameObject player;
 	public float distanceMin = 2f;
 
 	// Use this for initialization
@@ -19,7 +19,6 @@ public class obtainedKey : MonoBehaviour {
 
 		if(distance <= distanceMin){
 			interrupteur.renderer.material.color = Color.green;
-			interrupteur.light.color = Color.green;
 			Destroy(gameObject);
 		}
 	}
